@@ -108,10 +108,10 @@ main {
 }
 
 .search_section > form {
-  padding: 16px;
+ 
   width: 100%;
   display: flex;
-  gap: 10px;
+  justify-content: space-around;
 }
 
 .search_section > form > label {
