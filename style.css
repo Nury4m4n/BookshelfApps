@@ -110,9 +110,8 @@ main {
 .search_section > form {
   padding: 16px;
   width: 100%;
-  display: grid;
-  grid-template-columns: auto 1fr 0.5fr;
-  grid-gap: 10px;
+  display: flex;
+  gap: 10px;
 }
 
 .search_section > form > label {
@@ -123,6 +122,7 @@ main {
 .search_section > form > input {
   padding: 5px;
   border-radius: 5px;
+  width: 70%;
 }
 
 .search_section > form > button {
@@ -133,6 +133,7 @@ main {
   border-radius: 5px;
   cursor: pointer;
   transition: all 0.15s ease-in;
+  width: 20%;
 }
 .search_section > form > button:hover {
   border: 3px solid cornflowerblue;
